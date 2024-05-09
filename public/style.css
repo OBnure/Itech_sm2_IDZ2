@@ -1,0 +1,59 @@
+body {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+#carList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#carList li {
+    padding: 10px;
+    border-bottom: 1px solid #444;
+}
+
+#carList li:hover {
+    background-color: #333;
+}
+
+.carNumber {
+    font-weight: bold;
+}
+
+#addCarForm {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px;
+    display: flex;
+    flex-direction: column; 
+}
+
+#addCarForm input[type="text"] {
+    width: 150px;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #333; 
+    color: #ffffff;
+    border: none; 
+    border-radius: 5px; 
+}
+
+#addCarBtn {
+    background-color: #666666; 
+    color: #ffffff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+    border-radius: 5px; 
+}
+
+#addCarBtn:hover {
+    background-color: #999999; 
+}
